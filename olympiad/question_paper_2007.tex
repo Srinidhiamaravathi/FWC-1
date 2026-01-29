@@ -1,123 +1,101 @@
 \documentclass[12pt]{article}
 
-% Page layout similar to original IMO paper
-\usepackage[a4paper,top=2.2cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
-
+% ---------- PACKAGES ----------
+\usepackage[a4paper,margin=1in]{geometry}
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
+\usepackage{enumitem}
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt}
 
 \begin{document}
 
-% ===================== PAGE 1 HEADER =====================
-
+% ---------- HEADER ----------
 \begin{center}
-    \includegraphics[width=0.75\textwidth]{IMG_20260129_074742.jpg}
+\includegraphics[width=6cm]{IMG_20260129_074742.jpg}\\[6pt]
+\textbf{\Large Srinidhi A}\\
+\textbf{ID: COMETFWC053}
 \end{center}
 
-\vspace{0.3cm}
+\vspace{6mm}
 
-\begin{center}
-    {\large \textbf{Srinidhi A}}\\
-    ID: COMETFWC053
-\end{center}
+\hfill \textit{Wednesday, July 25, 2007}
 
-\vspace{0.6cm}
+\vspace{6mm}
 
-\begin{center}
-    July 25, 2007
-\end{center}
+% ---------- QUESTIONS (PAGE 1) ----------
+\begin{enumerate}
 
-\vspace{0.6cm}
-
-% ===================== PROBLEM 1 =====================
-
-\textbf{Problem 1.}
-Real numbers $a_1,a_2,\ldots,a_n$ are given. For each $i$ $(1 \le i \le n)$ define
+\item \textbf{Problem 1.}  
+Real numbers $a_1, a_2, \ldots, a_n$ are given. For each $i$ $(1 \le i \le n)$ define
 \[
-d_i=\max\{a_j:1\le j\le i\}-\min\{a_j:i\le j\le n\}
+d_i = \max\{a_j : 1 \le j \le i\} - \min\{a_j : i \le j \le n\}
 \]
 and let
 \[
-d=\max\{d_i:1\le i\le n\}.
+d = \max\{d_i : 1 \le i \le n\}.
 \]
 
-(a) Prove that, for any real numbers $x_1\le x_2\le\cdots\le x_n$,
+(a) Prove that for any real numbers $x_1 \le x_2 \le \cdots \le x_n$,
 \[
-\max\{|x_i-a_i|:1\le i\le n\}\ge\frac{d}{2}.
+\max\{|x_i - a_i| : 1 \le i \le n\} \ge \frac{d}{2}.
 \]
 
-(b) Show that there exist real numbers $x_1\le x_2\le\cdots\le x_n$ such that equality holds.
+(b) Show that there exist real numbers $x_1 \le x_2 \le \cdots \le x_n$ such that equality holds.
 
-% ===================== PROBLEM 2 =====================
+\item \textbf{Problem 2.}  
+Consider five points $A,B,C,D,E$ such that $ABCD$ is a parallelogram and $BCED$ is a cyclic quadrilateral. Let $\ell$ be a line passing through $A$. Suppose that $\ell$ intersects the interior of segment $DC$ at $F$ and intersects line $BC$ at $G$. Suppose also that $EF = EG = EC$. Prove that $\ell$ is the bisector of angle $DAB$.
 
-\textbf{Problem 2.}
-Consider five points $A,B,C,D$ and $E$ such that $ABCD$ is a parallelogram and $BCED$ is a cyclic quadrilateral.
-Let $\ell$ be a line passing through $A$.
-Suppose that $\ell$ intersects the interior of the segment $DC$ at $F$ and intersects line $BC$ at $G$.
-Suppose also that $EF=EG=EC$.
-Prove that $\ell$ is the bisector of angle $DAB$.
+\item \textbf{Problem 3.}  
+In a mathematical competition some competitors are friends. Friendship is mutual. A group of competitors is called a \textit{clique} if each two of them are friends. Given that the largest size of a clique is even, prove that the competitors can be arranged into two rooms such that the largest clique in each room has the same size.
 
-% ===================== PROBLEM 3 =====================
+\end{enumerate}
 
-\textbf{Problem 3.}
-In a mathematical competition some competitors are friends.
-Friendship is always mutual.
-Call a group of competitors a \emph{clique} if each two of them are friends
-(In particular, any group of fewer than two competitors is a clique).
-The number of members of a clique is called its \emph{size}.
+\vfill
 
-Given that, in this competition, the largest size of a clique is even,
-prove that the competitors can be arranged in two rooms such that
-the largest size of a clique contained in one room is the same as the largest size
-of a clique contained in the other room.
+\noindent
+\textit{Language: English}
+\hfill
+\textit{Time: 4 hours and 30 minutes}\\
+\hfill
+\textit{Each problem is worth 7 points}
 
 \newpage
 
-% ===================== PAGE 2 HEADER =====================
+% ---------- PAGE 2 ----------
+\hfill \textit{Thursday, July 26, 2007}
 
-\begin{center}
-    July 26, 2007
-\end{center}
+\vspace{6mm}
 
-\hfill Language: English
+\begin{enumerate}
+\setcounter{enumi}{3}
 
-\vspace{0.6cm}
+\item \textbf{Problem 4.}  
+In triangle $ABC$ the bisector of angle $BCA$ intersects the circumcircle again at $R$. The perpendicular bisectors of $BC$ and $AC$ meet at $P$ and $Q$ respectively. Let $K$ and $L$ be the midpoints of $BC$ and $AC$. Prove that triangles $RPK$ and $RQL$ have the same area.
 
-% ===================== PROBLEM 4 =====================
-
-\textbf{Problem 4.}
-In triangle $ABC$ the bisector of angle $BCA$ intersects the circumcircle again at $R$,
-the perpendicular bisector of $BC$ at $P$, and the perpendicular bisector of $AC$ at $Q$.
-The midpoint of $BC$ is $K$ and the midpoint of $AC$ is $L$.
-Prove that the triangles $RPK$ and $RQL$ have the same area.
-
-% ===================== PROBLEM 5 =====================
-
-\textbf{Problem 5.}
-Let $a$ and $b$ be positive integers.
-Show that if $4ab-1$ divides $(4a^2-1)^2$, then $a=b$.
-
-% ===================== PROBLEM 6 =====================
-
-\textbf{Problem 6.}
-Let $n$ be a positive integer.
-Consider
+\item \textbf{Problem 5.}  
+Let $a$ and $b$ be positive integers. Show that if
 \[
-S=\{(x,y,z):x,y,z\in\{0,1,\ldots,n\},\;x+y+z>0\}
+4ab - 1 \mid (4a^2 - 1)^2,
 \]
-as a set of $(n+1)^3-1$ points in three-dimensional space.
-Determine the smallest possible number of planes, the union of which contains $S$
-but does not include $(0,0,0)$.
+then $a = b$.
+
+\item \textbf{Problem 6.}  
+Let $n$ be a positive integer and consider
+\[
+S = \{(x,y,z) : x,y,z \in \{0,1,\ldots,n\},\ x+y+z > 0\}.
+\]
+Determine the smallest number of planes whose union contains $S$ but does not contain $(0,0,0)$.
+
+\end{enumerate}
+
+\vfill
+
+\noindent
+\textit{Language: English}
+\hfill
+\textit{Time: 4 hours and 30 minutes}\\
+\hfill
+\textit{Each problem is worth 7 points}
 
 \end{document}
-
-
-
-
-
-
-
-
