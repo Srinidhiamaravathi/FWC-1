@@ -1,0 +1,517 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Termux) (preloaded format=pdflatex 2026.1.28)  30 JAN 2026 09:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**task1.tex
+(./task1.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/a
+rticle.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/base/s
+ize10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+
+! LaTeX Error: Unknown option `draft=false' for package `graphics'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 \if
+        !\Gin@driver!
+? 
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/graphi
+cs-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen151
+))
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen152
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsmat
+h/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count283
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count284
+\leftroot@=\count285
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count286
+\DOTSCASE@=\count287
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count288
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count289
+\dotsspace@=\muskip17
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
+\tag@help=\toks19
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
+\andhelp@=\toks20
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks21
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
+ts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/amsfon
+ts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/geomet
+ry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/ifte
+x/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/generic/ifte
+x/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count295
+\Gm@cntv=\count296
+\c@Gm@tempcnt=\count297
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
+\Gm@dimlist=\toks23
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/tools/
+multicol.sty
+Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count298
+\mult@box=\box55
+\multicol@leftmargin=\dimen168
+\c@unbalance=\count299
+\c@collectmore=\count300
+\doublecol@number=\count301
+\multicoltolerance=\count302
+\multicolpretolerance=\count303
+\full@width=\dimen169
+\page@free=\dimen170
+\premulticols=\dimen171
+\postmulticols=\dimen172
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box56
+\last@line=\box57
+\mc@boxedresult=\box58
+\maxbalancingoverflow=\dimen173
+\mult@rightbox=\box59
+\mult@grightbox=\box60
+\mult@firstbox=\box61
+\mult@gfirstbox=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\c@minrows=\count304
+\c@columnbadness=\count305
+\c@finalcolumnbadness=\count306
+\last@try=\dimen174
+\multicolovershoot=\dimen175
+\multicolundershoot=\dimen176
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count307
+\g__mc_curr_col_int=\count308
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/setspa
+ce/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/l3back
+end/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count309
+) (./task1.aux)
+\openout1 = `task1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/context/base
+/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count310
+\scratchdimen=\dimen177
+\scratchbox=\box101
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen178
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks25
+)
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/epstop
+df-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/tex/latex/latexc
+onfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(34.14322pt, 529.22144pt, 34.14322pt)
+* v-part:(T,H,B)=(34.14322pt, 776.7604pt, 34.14322pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=529.22144pt
+* \textheight=776.7604pt
+* \oddsidemargin=-38.12677pt
+* \evensidemargin=-38.12677pt
+* \topmargin=-75.12677pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=22.76228pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<logo.jpg, id=1, 1084.05pt x 509.905pt>
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 24.
+(pdftex.def)             Requested size: 170.71652pt x 80.29489pt.
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \item If sinθ
+                    + cosθ = √2 cos(90° − θ),
+? 
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \item If sinθ + cosθ
+                            = √2 cos(90° − θ),
+? 
+
+! LaTeX Error: Unicode character √ (U+221A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \item If sinθ + cosθ = √
+                                 2 cos(90° − θ),
+? 
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \item If sinθ + cosθ = √2 cos(90° −
+                                                θ),
+? 
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \item If sinθ + cosθ = √2 cos(90° − θ
+                                                  ),
+? 
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 find the value of cotθ
+                            .
+? 
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...th and 15th terms of an A.P are 13 and −
+                                                  17 respectively.
+? 
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...ment joining the points A(2,1) and B(5,−
+                                                  8) is trisected
+? 
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 2x −
+            y + k = 0, find the value of k.
+? 
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 equidistant from the point Q(2,−
+                                        5) and R(−3,6), find the coordinates.
+
+? 
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...istant from the point Q(2,−5) and R(−
+                                                  3,6), find the coordinates.
+? 
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \item Show that 1, 1/2 and −
+                                    2 are the zeroes of the polynomial
+? 
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 2x3 + x2 −
+                   5x + 2.
+? 
+[1
+
+{/data/data/com.termux/files/usr/share/texlive/2025/texmf-var/fonts/map/pdftex/
+updmap/pdftex.map}{/data/data/com.termux/files/usr/share/texlive/2025/texmf-dis
+t/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./logo.jpg>] (./task1.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 3251 strings out of 469438
+ 49479 string characters out of 5464648
+ 470104 words of memory out of 5000000
+ 31917 multiletter control sequences out of 15000+600000
+ 628364 words of font info for 42 fonts, out of 8000000 for 9000
+ 56 hyphenation exceptions out of 8191
+ 57i,5n,65p,221b,209s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</data/data/com.termux/files/usr/share/texlive/2025/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></data/data/com.termux/files/usr/share/texlive/2025
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></data/data/com.termux/fil
+es/usr/share/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on task1.pdf (1 page, 99462 bytes).
+PDF statistics:
+ 25 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
