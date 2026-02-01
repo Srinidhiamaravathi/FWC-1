@@ -15,59 +15,65 @@ ID: COMETFWC053
 July 25--26, 2007
 \end{center}
 
-
 \begin{enumerate}
 
 \item
-Real numbers $a_1,a_2,\ldots,a_n$ are given. For each $i$ $(1\le i\le n)$ define
-\[
-d_i=\max\{a_j:1\le j\le i\}-\min\{a_j:i\le j\le n\}
-\]
-and let
-\[
-d=\max\{d_i:1\le i\le n\}.
-\]
+Real numbers $a_1,a_2,...,a_n$ are given.  
+For each $i$ $(1 <= i <= n)$ define  
+
+$d_i = (largest\ a_j\ for\ 1 <= j <= i) - (smallest\ a_j\ for\ i <= j <= n)$  
+
+and let  
+
+$d = (largest\ d_i\ for\ 1 <= i <= n)$.
 
 \begin{enumerate}
 \item
-Prove that for any real numbers $x_1\le x_2\le\cdots\le x_n$,
-\[
-\max\{|x_i-a_i|:1\le i\le n\}\ge \frac d2.
-\]
+Prove that for any real numbers  
+$x_1 <= x_2 <= ... <= x_n$,  
+
+$|x_i - a_i| >= d/2$ for some $i$ with $1 <= i <= n$.
 
 \item
-Show that there exist real numbers $x_1\le x_2\le\cdots\le x_n$ such that equality holds.
+Show that there exist real numbers  
+$x_1 <= x_2 <= ... <= x_n$  
+such that equality holds.
 \end{enumerate}
 
 \item
-Consider five points $A,B,C,D,E$ such that $ABCD$ is a parallelogram and $BCED$ is a cyclic quadrilateral.
-Let $\ell$ be a line passing through $A$. Suppose that $\ell$ intersects segment $DC$ at $F$
-and line $BC$ at $G$. Suppose also that $EF=EG=EC$.
-Prove that $\ell$ bisects angle $DAB$.
+Consider five points $A,B,C,D,E$ such that $ABCD$ is a parallelogram
+and $BCED$ is a cyclic quadrilateral.
+Let $l$ be a line through $A$.
+Suppose that $l$ meets segment $DC$ at $F$ and line $BC$ at $G$.
+Suppose also that $EF = EG = EC$.
+Prove that $l$ bisects angle $DAB$.
 
 \item
 In a mathematical competition some competitors are friends.
-Friendship is mutual. A group of competitors is called a clique
-if each two of them are friends.
-Given that the largest size of a clique is even,
+Friendship is mutual.
+A group of competitors is called a clique if each two are friends.
+Given that the largest clique has even size,
 prove that the competitors can be arranged in two rooms
 so that the largest clique size in each room is the same.
 
 \item
 In triangle $ABC$ the bisector of angle $BCA$ meets the circumcircle again at $R$,
-the perpendicular bisector of $BC$ at $P$, and that of $AC$ at $Q$.
-Let $K$ and $L$ be the midpoints of $BC$ and $AC$ respectively.
+the perpendicular bisector of $BC$ at $P$,
+and the perpendicular bisector of $AC$ at $Q$.
+Let $K$ and $L$ be the midpoints of $BC$ and $AC$.
 Prove that triangles $RPK$ and $RQL$ have equal area.
 
 \item
 Let $a$ and $b$ be positive integers.
-Show that if $4ab-1$ divides $(4a^2-1)^2$, then $a=b$.
+Show that if $4ab - 1$ divides $(4a^2 - 1)^2$,
+then $a = b$.
 
 \item
-Let $n$ be a positive integer. Let
-\[
-S=\{(x,y,z):x,y,z\in\{0,1,\ldots,n\},x+y+z>0\}.
-\]
+Let $n$ be a positive integer.
+Let  
+
+$S = \{(x,y,z) : x,y,z \in \{0,1,...,n\}, x + y + z > 0\}$.
+
 Determine the minimum number of planes whose union contains $S$
 but does not contain $(0,0,0)$.
 
