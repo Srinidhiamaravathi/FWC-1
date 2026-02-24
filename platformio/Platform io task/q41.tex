@@ -1,0 +1,121 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{float}
+\geometry{margin=1in}
+
+\begin{document}
+
+%================ HEADER =================%
+
+\begin{center}
+\includegraphics[width=2.5cm]{iiitb_comet_logo.jpg}
+
+\vspace{0.2cm}
+
+\textbf{Name: Srinidhi A} \\
+\textbf{ID: COMETFWC053}
+\end{center}
+
+\vspace{0.3cm}
+
+\begin{center}
+\huge \textbf{GATE Question No. 41}
+\end{center}
+
+\vspace{0.3cm}
+
+%================ QUESTION =================%
+
+\textbf{Question:}
+
+For any set of inputs, $A$ and $B$, the following circuits give the same output, $Q$, except one. Identify which one is different.
+
+\vspace{0.2cm}
+
+% Image forced to stay here
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{question.jpg}
+\end{figure}
+
+\begin{center}
+(GATE PH 2010)
+\end{center}
+
+\vspace{0.4cm}
+
+%================ SOLUTION =================%
+
+\huge \textbf{Solution}
+
+\normalsize
+
+We simplify each circuit using Boolean algebra.
+
+\vspace{0.4cm}
+
+\textbf{Step 1: Circuit (a)}
+
+From the diagram, output is AND of $(A + B)$ and $B'$.
+
+$Q_a = (A + B)\cdot B'$
+
+Using distributive law:
+
+$Q_a = A B' + B B'$
+
+Since $B B' = 0$,
+
+$Q_a = A B'$
+
+\vspace{0.4cm}
+
+\textbf{Step 2: Circuit (b)}
+
+$Q_b = A B'$
+
+\vspace{0.4cm}
+
+\textbf{Step 3: Circuit (c)}
+
+After simplifying internal gates,
+
+$Q_c = A B'$
+
+\vspace{0.4cm}
+
+\textbf{Step 4: Circuit (d)}
+
+$Q_d = A' + B$
+
+\vspace{0.6cm}
+
+\textbf{Truth Table:}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+A & B & $A B'$ & $A' + B$ \\
+\hline
+0 & 0 & 0 & 1 \\
+0 & 1 & 0 & 1 \\
+1 & 0 & 1 & 0 \\
+1 & 1 & 0 & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{0.6cm}
+
+Circuits (a), (b), and (c) give same output.
+
+Circuit (d) gives different output.
+
+\vspace{0.8cm}
+
+\begin{center}
+\huge \boxed{\text{Correct Answer: Option (d)}}
+\end{center}
+
+\end{document}
