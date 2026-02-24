@@ -1,0 +1,165 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{xcolor}
+\geometry{margin=1in}
+
+\begin{document}
+
+%================ PAGE 1 ===================
+
+\begin{center}
+\includegraphics[width=2.5cm]{iiitb_comet_logo.jpg}
+\end{center}
+
+\vspace{0.2cm}
+
+\begin{center}
+\textbf{\large Srinidhi A} \\[3pt]
+\textbf{COMETFWC053}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+{\Large \textbf{GATE Question No. 41}}
+\end{center}
+
+\vspace{0.3cm}
+\section*{\color{blue}Question}
+\noindent
+For any set of inputs $A$ and $B$, the following circuits give the same output $Q$, except one. Identify the circuit which gives a different output. (GATE PH 2010)
+
+\vspace{0.4cm}
+
+\begin{center}
+\includegraphics[width=9.5cm]{question.jpg}
+\end{center}
+
+\newpage
+
+%================ PAGE 2 ===================
+
+\section*{\color{blue}Question Analysis}
+
+From logical simplification of the circuits, the Boolean expression obtained is:
+
+\[
+Q = \overline{A} + B
+\]
+
+Each circuit is verified against this expression to determine the incorrect one.
+
+%================ TRUTH TABLE ===================
+
+\section*{\color{blue}The Truth Table}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+A & B & $Q = \overline{A} + B$ \\
+\hline
+0 & 0 & 1 \\
+0 & 1 & 1 \\
+1 & 0 & 0 \\
+1 & 1 & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+%================ HARDWARE ===================
+
+\section*{\color{blue}Hardware Implementation}
+
+The Boolean expression is implemented using the Arduino UNO board. Inputs $A$ and $B$ are provided through digital pins and the output $Q$ is verified using an LED / 7-segment display.
+
+%================ COMPONENTS ===================
+
+\section*{\color{blue}Required Components \& Pin Connections}
+
+\begin{center}
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Component} & \textbf{Connection} \\
+\hline
+Input A & Digital Pin 2 \\
+Input B & Digital Pin 3 \\
+Output Q & Digital Pin 7 \\
+GND & GND \\
+VCC & 5V \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{0.3cm}
+
+\textbf{Components Used:}
+
+\begin{itemize}
+\item Arduino UNO
+\item Breadboard
+\item LED / 7 Segment Display
+\item Resistors
+\item Jumper Wires
+\item USB Cable
+\end{itemize}
+
+%================ LOGIC DESCRIPTION ===================
+
+\section*{\color{blue}Logic Description}
+
+\begin{itemize}
+\item Initialize inputs $A$ and $B$.
+\item Implement the expression $Q = \overline{A} + B$.
+\item Apply all input combinations as per truth table.
+\item Verify hardware output with theoretical values.
+\end{itemize}
+
+%================ CODE STEPS ===================
+
+\section*{\color{blue}Code Uploading Steps}
+
+\begin{enumerate}
+\item Create a Platform IO project.
+\item Write the code in \texttt{main.cpp} inside the \texttt{src} folder.
+\item Run the PIO project using the command \texttt{pio run}. This compiles the code and generates the .hex file.
+\item Copy the .hex file to the Arduino Droid folder.
+\item Connect the Arduino UNO to the mobile using an OTG cable.
+\item Upload the hex file using the "Upload Precompiled" option.
+\item Observe the output and verify the expression.
+\end{enumerate}
+
+%================ EXPERIMENTAL TABLE ===================
+
+\section*{\color{blue}Experimental Truth Table}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+A & B & Observed Q \\
+\hline
+0 & 0 & 1 \\
+0 & 1 & 1 \\
+1 & 0 & 0 \\
+1 & 1 & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{center}
+\includegraphics[width=10cm]{hardware.jpg}
+\end{center}
+
+%================ CONCLUSION ===================
+
+\section*{\color{blue}Conclusion}
+
+The Boolean expression $Q = \overline{A} + B$ was successfully implemented using the Arduino UNO board.
+
+The hardware output matches the theoretical truth table. Hence, the experiment has been verified successfully.
+
+\end{document}
