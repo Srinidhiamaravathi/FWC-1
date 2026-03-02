@@ -1,0 +1,70 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\begin{document}
+
+\begin{center}
+\includegraphics[width=0.3\textwidth]{../Gate_Task/sevenseg/iiitb_comet_logo.jpg}
+
+\vspace{0.5cm}
+
+{\Large \textbf{Question 36 Solution}}
+
+\vspace{0.3cm}
+
+\textbf{Name: Srinidhi A}\\
+\textbf{ID: COMETFWC053}
+\end{center}
+
+\vspace{1cm}
+
+\section*{Question}
+
+Given the Boolean expression:
+
+$[X + Z(Y + (Z + XY)')][(\overline{Y} + \overline{Z}(X + Y))]$
+
+If $X = 1$, simplify the expression.
+
+\section*{Solution}
+
+Substitute $X = 1$
+
+$[1 + Z(Y + (Z + Y)')][(\overline{Y} + \overline{Z}(1 + Y))]$
+
+Since $1 + A = 1$,
+
+First bracket simplifies to $1$.
+
+Second bracket simplifies to $(\overline{Y} + \overline{Z})$.
+
+Final simplified expression:
+
+$F = \overline{YZ}$
+
+Thus, the circuit behaves as a NAND gate.
+
+\section*{Truth Table}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Y & Z & $F = \overline{YZ}$ \\
+\hline
+0 & 0 & 1 \\
+0 & 1 & 1 \\
+1 & 0 & 1 \\
+1 & 1 & 0 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section*{Conclusion}
+
+The output is HIGH except when both Y and Z are HIGH.
+Therefore, the simplified logic is NAND.
+
+\end{document}
