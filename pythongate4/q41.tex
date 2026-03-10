@@ -1,0 +1,90 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{listings}
+
+\begin{document}
+
+\begin{center}
+
+\includegraphics[width=3cm]{iiitb_comet_logo.jpg}
+
+\vspace{0.4cm}
+
+IIIT Bangalore
+
+\vspace{0.3cm}
+
+Name: Srinidhi A
+
+ID: COMETFWC053
+
+\vspace{0.5cm}
+
+Question 41
+
+\end{center}
+
+\section*{Question}
+
+Identify the Boolean expression implemented by the given circuit.
+
+\section*{Analysis}
+
+From circuit analysis the output is
+
+$Q = A' + B$
+
+Truth table:
+
+\begin{tabular}{c c c}
+$A$ & $B$ & $Q$ \\
+0 & 0 & 1 \\
+0 & 1 & 1 \\
+1 & 0 & 0 \\
+1 & 1 & 1 \\
+\end{tabular}
+
+\section*{Python Code}
+
+\begin{lstlisting}
+import numpy as np
+import matplotlib.pyplot as plt
+
+A = np.array([0,0,1,1])
+B = np.array([0,1,0,1])
+
+Q = (~A & 1) | B
+
+print("A B Q")
+
+for i in range(4):
+    print(A[i], B[i], Q[i])
+
+x = np.arange(4)
+
+plt.step(x,A,where='post',label='A')
+plt.step(x,B,where='post',label='B')
+plt.step(x,Q,where='post',label='Q')
+
+plt.grid()
+plt.legend()
+
+plt.savefig("graph.png")
+
+plt.show()
+\end{lstlisting}
+
+\section*{Graph}
+
+\begin{center}
+
+\includegraphics[width=10cm]{graph.png}
+
+\end{center}
+
+\section*{Conclusion}
+
+The output follows the Boolean expression $Q = A' + B$. The graph verifies that the output becomes 1 whenever $A=0$ or $B=1$.
+
+\end{document}

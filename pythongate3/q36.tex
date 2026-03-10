@@ -1,0 +1,92 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{listings}
+
+\begin{document}
+
+\begin{center}
+
+\includegraphics[width=3cm]{iiitb_comet_logo.jpg}
+
+\vspace{0.4cm}
+
+IIIT Bangalore
+
+\vspace{0.3cm}
+
+Name: Srinidhi A
+
+ID: COMETFWC053
+
+\vspace{0.5cm}
+
+Question 36
+
+\end{center}
+
+\section*{Question}
+
+Simplify the Boolean expression and determine the logic function.
+
+\section*{Analysis}
+
+For inputs $Y$ and $Z$ the function is
+
+$F = \overline{YZ}$
+
+This represents the NAND operation.
+
+Truth table:
+
+\begin{tabular}{c c c}
+$Y$ & $Z$ & $F$ \\
+0 & 0 & 1 \\
+0 & 1 & 1 \\
+1 & 0 & 1 \\
+1 & 1 & 0 \\
+\end{tabular}
+
+\section*{Python Code}
+
+\begin{lstlisting}
+import numpy as np
+import matplotlib.pyplot as plt
+
+Y = np.array([0,0,1,1])
+Z = np.array([0,1,0,1])
+
+F = 1 - (Y & Z)
+
+print("Y Z F")
+
+for i in range(4):
+    print(Y[i], Z[i], F[i])
+
+x = np.arange(4)
+
+plt.step(x,Y,where='post',label='Y')
+plt.step(x,Z,where='post',label='Z')
+plt.step(x,F,where='post',label='F')
+
+plt.grid()
+plt.legend()
+
+plt.savefig("graph.png")
+
+plt.show()
+\end{lstlisting}
+
+\section*{Graph}
+
+\begin{center}
+
+\includegraphics[width=10cm]{graph.png}
+
+\end{center}
+
+\section*{Conclusion}
+
+The output follows the NAND truth table. Therefore the simplified Boolean expression corresponds to a NAND gate.
+
+\end{document}
