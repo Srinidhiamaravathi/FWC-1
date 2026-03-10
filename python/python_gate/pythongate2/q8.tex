@@ -1,0 +1,92 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{listings}
+
+\begin{document}
+
+\begin{center}
+
+\includegraphics[width=3cm]{iiitb_comet_logo.jpg}
+
+\vspace{0.4cm}
+
+IIIT Bangalore
+
+\vspace{0.3cm}
+
+Name: Srinidhi A
+
+ID: COMETFWC053
+
+\vspace{0.5cm}
+
+Question 8
+
+\end{center}
+
+\section*{Question}
+
+Simplify the Boolean function using the Karnaugh Map shown.
+
+\section*{Analysis}
+
+A 4-variable Karnaugh map is used to simplify Boolean expressions.
+
+Variables used:
+
+$P, Q, R, S$
+
+The map is arranged in Gray code order.
+
+Rows represent $RS$ and columns represent $PQ$.
+
+By grouping adjacent 1s in the K-map we obtain the simplified Boolean expression.
+
+\section*{Python Code}
+
+\begin{lstlisting}
+import numpy as np
+import matplotlib.pyplot as plt
+
+kmap = np.array([
+[0,1,0,0],
+[0,1,1,1],
+[1,1,1,0],
+[0,0,1,0]
+])
+
+print("K-map Matrix:")
+print(kmap)
+
+plt.figure()
+plt.imshow(kmap)
+
+for i in range(4):
+    for j in range(4):
+        plt.text(j,i,kmap[i][j],ha='center',va='center')
+
+plt.title("4 Variable Karnaugh Map")
+plt.xlabel("PQ (00 01 11 10)")
+plt.ylabel("RS (00 01 11 10)")
+
+plt.colorbar()
+
+plt.savefig("graph.png")
+
+plt.show()
+\end{lstlisting}
+
+\section*{Graph}
+
+\begin{center}
+
+\includegraphics[width=10cm]{graph.png}
+
+\end{center}
+
+\section*{Conclusion}
+
+The Karnaugh Map visualization helps identify groups of adjacent 1s. These groups allow simplification of the Boolean expression, reducing the number of logic gates required in the final circuit implementation.
+
+\end{document}
